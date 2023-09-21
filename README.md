@@ -8,7 +8,7 @@
 <body>
     <h1>Dummy Data</h1>
     <ul id="dummy-list"></ul>
-       <script>
+    <script>
         // Fetch dummy data from the server
         fetch('/get_dummy_data')
             .then(response => response.json())
